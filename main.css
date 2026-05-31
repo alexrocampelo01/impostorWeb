@@ -1,0 +1,18 @@
+.headerLista{
+    background-color: aqua;
+    width: 15vw;
+    height: 2vw;
+}
+.sumarJugador{
+    border: solid 2px black;
+    background-color: beige;
+}
+.listaJugadores{
+    background-color: darkblue;
+    width: 50vw;
+}
+.jugador{
+     background-color: cadetblue;
+display: flex;
+height: 5vw;
+}

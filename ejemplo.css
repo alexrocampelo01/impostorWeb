@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 40px auto;
+    background: #d3d8de;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .form {
+    margin-bottom: 15px;
+  }
+  
+  .form input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .listaJugadores {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .filasJugadores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .filasJugadores:last-child {
+    border-bottom: none;
+  }
+  
+  .nombre {
+    flex: 1;
+  }
+  
+  .acciones {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .btn {
+    border: none;
+    padding: 6px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  .agregar {
+    background-color: #3b6ea5;
+  }
+  
+  .borrar {
+    background-color: orange;
+  }
+  
+  .editar {
+    background-color: green;
+  }
